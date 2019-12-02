@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VALIGN.Dialogs
+namespace ViewsAlign.Dialogs
 {
     public partial class AlignDialog : Form
     {

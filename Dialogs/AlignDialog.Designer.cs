@@ -1,4 +1,4 @@
-﻿namespace VALIGN.Dialogs
+﻿namespace ViewsAlign.Dialogs
 {
     partial class AlignDialog
     {

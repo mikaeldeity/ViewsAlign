@@ -9,20 +9,20 @@ using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 
-namespace VALIGN
+namespace ViewsAlign
 {
     public class App : IExternalApplication
     {
         static void AddRibbonPanel(UIControlledApplication application)
         {
-            RibbonPanel ribbonPanel = application.CreateRibbonPanel("ViewsAlign");
+            RibbonPanel ribbonPanel = application.CreateRibbonPanel("Views");
 
             string thisAssemblyPath = Assembly.GetExecutingAssembly().Location;            
 
-            PushButtonData b1Data = new PushButtonData("Views Align", "Views Align", thisAssemblyPath, "VALIGN.Start");
+            PushButtonData b1Data = new PushButtonData("Align Views", "Align Views", thisAssemblyPath, "ViewsAlign.Start");
             PushButton pb1 = ribbonPanel.AddItem(b1Data) as PushButton;
             pb1.ToolTip = "Align views on sheets.";
-            BitmapImage pb1Image = new BitmapImage(new Uri(thisAssemblyPath.Replace("VALIGN.dll","") + "VA.png"));
+            BitmapImage pb1Image = new BitmapImage(new Uri(thisAssemblyPath.Replace("ViewsAlign.dll", "") + "ViewsAlign.png"));
             pb1.LargeImage = pb1Image;            
         }
 
