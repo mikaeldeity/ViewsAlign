@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>VALIGN</Name>
+    <Assembly>.\VALIGN\VALIGN.dll</Assembly>
+    <AddInId>8fa5f1c3-9639-470c-968a-7775befa48db</AddInId>
+    <FullClassName>VALIGN.App</FullClassName>
+    <VendorId>VALIGN</VendorId>
+    <VendorDescription>VALIGN</VendorDescription>
+  </AddIn>
+</RevitAddIns>
