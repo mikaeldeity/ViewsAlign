@@ -22,7 +22,7 @@ namespace ViewsAlign
             PushButtonData b1Data = new PushButtonData("Align Views", "Align Views", thisAssemblyPath, "ViewsAlign.Start");
             PushButton pb1 = ribbonPanel.AddItem(b1Data) as PushButton;
             pb1.ToolTip = "Align views on sheets.";
-            BitmapImage pb1Image = new BitmapImage(new Uri("pack://application:,,,/ViewsAlign;component/Resources/ViewsAlign.png"));
+            BitmapImage pb1Image = new BitmapImage(new Uri("pack://application:,,,/ViewsAlign;component/Resources/VA.png"));
             pb1.LargeImage = pb1Image;            
         }
 
