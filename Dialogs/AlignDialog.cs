@@ -24,5 +24,10 @@ namespace ViewsAlign.Dialogs
             DialogResult = DialogResult.OK;
             Close();
         }
+
+        private void AlignDialog_HelpButtonClicked(object sender, CancelEventArgs e)
+        {
+            MessageBox.Show("Subcategories Manager", "Developed by Mikael Santrolli\n\nmikael.santrolli@gmail.com");
+        }
     }
 }
