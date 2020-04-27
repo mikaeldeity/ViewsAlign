@@ -27,7 +27,7 @@ namespace ViewsAlign.Dialogs
 
         private void AlignDialog_HelpButtonClicked(object sender, CancelEventArgs e)
         {
-            MessageBox.Show("Subcategories Manager", "Developed by Mikael Santrolli\n\nmikael.santrolli@gmail.com");
+            MessageBox.Show("Developed by Mikael Santrolli\n\nmikael.santrolli@gmail.com", "Views Align");
         }
     }
 }

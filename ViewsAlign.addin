@@ -5,7 +5,7 @@
     <Assembly>.\ViewsAlign.dll</Assembly>
     <AddInId>8fa5f1c3-9639-470c-968a-7775befa48db</AddInId>
     <FullClassName>ViewsAlign.App</FullClassName>
-    <VendorId>ViewsAlign</VendorId>
-    <VendorDescription>ViewsAlign</VendorDescription>
+    <VendorId>Mikael Santrolli</VendorId>
+    <VendorDescription>mikael.santrolli@gmail.com</VendorDescription>
   </AddIn>
 </RevitAddIns>
